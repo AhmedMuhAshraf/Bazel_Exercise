@@ -66,10 +66,10 @@ Bazel_Exercise  <br />
  6) open lib/BUILD
  7) follow the comments and implement the required
  
- After doing all the steps cloning the main repo try oppening cmd and type :
-bazel build //app:myapp 
-bazel build //app:myapp --job=hero
-bazel build //app:myapp --job=actor
+ After doing all the steps cloning the main repo try oppening cmd and type :  <br />
+bazel build //app:myapp  <br />
+bazel build //app:myapp --job=hero  <br />
+bazel build //app:myapp --job=actor  <br />
 
 after each of the previous steps you will find myapp.exe file created at the path 'Bazel_Exercise\bazel-bin\app' try to Run it and check the different outputs
 
