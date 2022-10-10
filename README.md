@@ -15,10 +15,10 @@
 
 ### The Project structure is as follow :
 Bazel_Exercise  <br />
-  app  <br />
-    inc  <br />
-      uart.h  <br />
-    srcs  <br />
+&nbsp;&nbsp;app  <br />
+&nbsp;&nbsp;&nbsp;&nbsp;inc  <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;uart.h  <br />
+&nbsp;&nbsp;srcs  <br />
       myapp.c  <br />
       uart.c  <br />
     BUILD  <br />
