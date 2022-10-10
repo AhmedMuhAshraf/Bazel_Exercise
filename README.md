@@ -18,29 +18,29 @@ Bazel_Exercise  <br />
 &nbsp;&nbsp;app  <br />
 &nbsp;&nbsp;&nbsp;&nbsp;inc  <br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;uart.h  <br />
-&nbsp;&nbsp;srcs  <br />
-      myapp.c  <br />
-      uart.c  <br />
-    BUILD  <br />
-  lib  <br />
-    inc  <br />
-      console.h  <br />
-    srcs  <br />
-      console.c  <br />
-    BUILD  <br />
-  WORKSPACE  <br />
-  .bazelrc  <br />
+&nbsp;&nbsp;&nbsp;&nbsp;srcs  <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;myapp.c  <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;uart.c  <br />
+&nbsp;&nbsp;&nbsp;&nbsp;BUILD  <br />
+&nbsp;&nbsp;lib  <br />
+&nbsp;&nbsp;&nbsp;&nbsp;inc  <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;console.h  <br />
+&nbsp;&nbsp;&nbsp;&nbsp;srcs  <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;console.c  <br />
+&nbsp;&nbsp;&nbsp;&nbsp;BUILD  <br />
+&nbsp;&nbsp;WORKSPACE  <br />
+&nbsp;&nbsp;.bazelrc  <br />
   
  ## Also there is another external repo (external dependency) that we load it remotely you can find at : https://github.com/AhmedMuhAshraf/Bazel_stringLib
  ### The structure is as follow :
  Bazel_stringLib  <br />
-     inc  <br />
-      string.h  <br />
-    srcs  <br />
-      string.c  <br />
-    BUILD  <br />
-    WORKSPACE  <br />
-    def.bzl  <br />
+&nbsp;&nbsp;inc  <br />
+&nbsp;&nbsp;&nbsp;&nbsp;string.h  <br />
+&nbsp;&nbsp;srcs  <br />
+&nbsp;&nbsp;&nbsp;&nbsp;string.c  <br />
+&nbsp;&nbsp;BUILD  <br />
+&nbsp;&nbsp;WORKSPACE  <br />
+&nbsp;&nbsp;def.bzl  <br />
     
  ## Your Task is to follow the required points below so as to fill the blanks in BUILD, WORKSPACE files to be able to build the project with different outputs.
  
