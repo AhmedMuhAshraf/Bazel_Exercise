@@ -43,5 +43,10 @@ Bazel_Exercise  <br />
 &nbsp;&nbsp;def.bzl  <br />
     
  ## Your Task is to follow the required points below so as to fill the blanks in BUILD, WORKSPACE files to be able to build the project with different outputs.
- 
+ After cloning both repos try oppening cmd at the main repo and type :
+bazel build //app:myapp 
+bazel build //app:myapp --job=hero
+bazel build //app:myapp --job=actor
+
+after each of the previous steps you will find myapp.exe file created at the path 'Bazel_Exercise\bazel-bin\app' try to Run it
 
