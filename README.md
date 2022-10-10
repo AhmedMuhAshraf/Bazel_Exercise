@@ -15,21 +15,21 @@
 
 ### The Project structure is as follow :
 Bazel_Exercise
-  app
-    inc
-      uart.h
-    srcs
-      myapp.c
-      uart.c
+--app
+----inc
+------uart.h
+----srcs
+------myapp.c
+------uart.c
+----BUILD
+--lib
+----inc
+------console.h
+----srcs
+------console.c
     BUILD
-  lib
-    inc
-      console.h
-    srcs
-      console.c
-    BUILD
-  WORKSPACE
-  .bazelrc
+--WORKSPACE
+--.bazelrc
   
  ## Also there is another external repo (external dependency) that we load it remotely you can find at : https://github.com/AhmedMuhAshraf/Bazel_stringLib
  ### The structure is as follow :
