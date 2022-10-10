@@ -13,6 +13,13 @@
 
 ## This Exercise is intended to get used to bazel commands and environment by building a simple App.
 
+The project is a simple app which prints different outputs on the console based on the build options that we provide,
+We got 3 options :
+1) providing "job=actor"
+2) providing "job=hero"
+3) providing anyother value to job or not providing at all
+each steps will print different string on the console.
+
 ### The Project structure is as follow :
 Bazel_Exercise  <br />
 &nbsp;&nbsp;app  <br />
@@ -44,7 +51,22 @@ Bazel_Exercise  <br />
     
  ## Task
  ### Your Task is to follow the required points below so as to fill the blanks in BUILD, WORKSPACE files to be able to build the project with different outputs.
- After cloning the main repo try oppening cmd and type :
+ ##### Bazel_stringLib
+ 1) Clone the Bazel_stringLib repo 
+ 2) Take a branch
+ 3) open the BUILD file 
+ 4) follow the comments and implement the required
+ 5) commit and push to your branch then fetch your commit hash and keep it for later
+ ##### Bazel_Excersie
+ 1) Clone the Bazel_Excersie repo
+ 2) open the WORKSPACE file
+ 3) follow the comments and implement the required
+ 4) open app/BUILD
+ 5) follow the comments and implement the required
+ 6) open lib/BUILD
+ 7) follow the comments and implement the required
+ 
+ After doing all the steps cloning the main repo try oppening cmd and type :
 bazel build //app:myapp 
 bazel build //app:myapp --job=hero
 bazel build //app:myapp --job=actor
