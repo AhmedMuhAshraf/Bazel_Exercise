@@ -14,33 +14,33 @@
 ## This Exercise is intended to get used to bazel commands and environment by building a simple App.
 
 ### The Project structure is as follow :
-Bazel_Exercise 
-  app 
-    inc 
-      uart.h 
-    srcs 
-      myapp.c 
-      uart.c 
-    BUILD 
-  lib 
-    inc 
-      console.h 
-    srcs 
-      console.c 
-    BUILD 
-  WORKSPACE 
-  .bazelrc 
+Bazel_Exercise  <br />
+  app  <br />
+    inc  <br />
+      uart.h  <br />
+    srcs  <br />
+      myapp.c  <br />
+      uart.c  <br />
+    BUILD  <br />
+  lib  <br />
+    inc  <br />
+      console.h  <br />
+    srcs  <br />
+      console.c  <br />
+    BUILD  <br />
+  WORKSPACE  <br />
+  .bazelrc  <br />
   
  ## Also there is another external repo (external dependency) that we load it remotely you can find at : https://github.com/AhmedMuhAshraf/Bazel_stringLib
  ### The structure is as follow :
- Bazel_stringLib 
-     inc 
-      string.h 
-    srcs 
-      string.c 
-    BUILD 
-    WORKSPACE 
-    def.bzl 
+ Bazel_stringLib  <br />
+     inc  <br />
+      string.h  <br />
+    srcs  <br />
+      string.c  <br />
+    BUILD  <br />
+    WORKSPACE  <br />
+    def.bzl  <br />
     
  ## Your Task is to follow the required points below so as to fill the blanks in BUILD, WORKSPACE files to be able to build the project with different outputs.
  
