@@ -31,7 +31,7 @@ Bazel_Exercise  <br />
 &nbsp;&nbsp;WORKSPACE  <br />
 &nbsp;&nbsp;.bazelrc  <br />
   
- ## Also there is another external repo (external dependency) that we load it remotely you can find at : https://github.com/AhmedMuhAshraf/Bazel_stringLib
+ ## Also there is another external repo (external dependency) that we load it remotely (No Need to clone bazel will do it intrnally) you can find at : https://github.com/AhmedMuhAshraf/Bazel_stringLib
  ### The structure is as follow :
  Bazel_stringLib  <br />
 &nbsp;&nbsp;inc  <br />
@@ -44,10 +44,10 @@ Bazel_Exercise  <br />
     
  ## Task
  ### Your Task is to follow the required points below so as to fill the blanks in BUILD, WORKSPACE files to be able to build the project with different outputs.
- After cloning both repos try oppening cmd at the main repo and type :
+ After cloning the main repo try oppening cmd and type :
 bazel build //app:myapp 
 bazel build //app:myapp --job=hero
 bazel build //app:myapp --job=actor
 
-after each of the previous steps you will find myapp.exe file created at the path 'Bazel_Exercise\bazel-bin\app' try to Run it
+after each of the previous steps you will find myapp.exe file created at the path 'Bazel_Exercise\bazel-bin\app' try to Run it and check the different outputs
 
