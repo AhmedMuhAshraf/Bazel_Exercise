@@ -42,7 +42,8 @@ Bazel_Exercise  <br />
 &nbsp;&nbsp;WORKSPACE  <br />
 &nbsp;&nbsp;def.bzl  <br />
     
- ## Your Task is to follow the required points below so as to fill the blanks in BUILD, WORKSPACE files to be able to build the project with different outputs.
+ ## Task
+ ### Your Task is to follow the required points below so as to fill the blanks in BUILD, WORKSPACE files to be able to build the project with different outputs.
  After cloning both repos try oppening cmd at the main repo and type :
 bazel build //app:myapp 
 bazel build //app:myapp --job=hero
