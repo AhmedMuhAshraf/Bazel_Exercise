@@ -38,7 +38,7 @@ Bazel_Exercise  <br />
 &nbsp;&nbsp;WORKSPACE  <br />
 &nbsp;&nbsp;.bazelrc  <br />
   
- ### Also there is another external repo (external dependency) that we load it remotely (No Need to clone bazel will do it intrnally) you can find at : https://github.com/AhmedMuhAshraf/Bazel_stringLib he structure is as follow :
+ ### Also there is another external repo (external dependency) that we load it remotely (No Need to clone bazel will do it intrnally) you can find at : https://github.com/AhmedMuhAshraf/Bazel_stringLib , The structure is as follows :
  Bazel_stringLib  <br />
 &nbsp;&nbsp;inc  <br />
 &nbsp;&nbsp;&nbsp;&nbsp;string.h  <br />
